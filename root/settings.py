@@ -41,7 +41,8 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += [
     'rest_framework',
-    'fbv' # 'fbv.apps.FbvConfig'
+    'fbv', # 'fbv.apps.FbvConfig',
+    'cbv',
 ]
 
 MIDDLEWARE = [
