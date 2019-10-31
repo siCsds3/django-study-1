@@ -43,6 +43,7 @@ INSTALLED_APPS += [
     'rest_framework',
     'fbv', # 'fbv.apps.FbvConfig',
     'cbv',
+    'mixin',
 ]
 
 MIDDLEWARE = [
