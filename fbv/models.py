@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 class Todo(models.Model):
 
+    # serializers - checked, title, due_date
     # 했는지 여부
     checked = models.BooleanField(
         default = False
